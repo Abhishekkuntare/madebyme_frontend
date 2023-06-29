@@ -4,7 +4,7 @@ import HomeCom1 from './HomeCom1';
 import HomeCom2 from './HomeCom2';
 import HomeCategory from './HomeCategory';
 import HomeCom0 from './HomeCom0';
-
+import Testimonials from '../Testimonials/Testimonials';
 const Home = () => {
   return (
     <section className="home">
@@ -12,6 +12,7 @@ const Home = () => {
       <HomeCom1 />
       <HomeCom2 />
       <HomeCategory />
+      <Testimonials />
     </section>
   );
 };
